@@ -1,0 +1,45 @@
+h1 {
+	font-size:50px;
+	font-family: verdana;
+	margin: 20px;
+	pading: 10px;
+	align: center;
+}
+h2 {
+font-size: 25px;
+font-family: palatino;
+color: lightgreen;
+margin: 20px;
+padding: 10px;
+align: left;
+}
+
+#boxed {
+font-size: 15px;
+font-family: verdana;
+border-style: solid;
+border-color: cornflowerblue;
+color: forestgreen;
+margin: 20px;
+padding: 10px;
+padding-right: 5px;
+height: 100px;
+width: 48%;
+}
+
+p {
+font-size:  15px;
+font-family: verdana;
+color: forestgreen;
+margin: 20px;
+padding: 10px;
+}
+
+img {
+	border-color: forestgreen;
+	border-style: solid;
+	margin: 10px;
+	padding: 10px;
+}
+
+
