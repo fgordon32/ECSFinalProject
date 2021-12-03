@@ -1,9 +1,13 @@
+body {
+	background-color: whitesmoke;
+}
 h1 {
 	font-size:50px;
 	font-family: verdana;
 	margin: 20px;
 	pading: 10px;
 	align: center;
+	/* Text set to verdana font, specified white space */
 }
 h2 {
 font-size: 25px;
@@ -12,19 +16,19 @@ color: lightgreen;
 margin: 20px;
 padding: 10px;
 align: left;
+/* Text set to light green, palatino font, and specified white space */
 }
 
 #boxed {
 font-size: 15px;
 font-family: verdana;
 border-style: solid;
-border-color: cornflowerblue;
+border-color: lightblue;
 color: forestgreen;
 margin: 20px;
 padding: 10px;
-padding-right: 5px;
 height: 100px;
-width: 48%;
+width: 95%; 
 }
 
 p {
@@ -33,13 +37,31 @@ font-family: verdana;
 color: forestgreen;
 margin: 20px;
 padding: 10px;
+/* Text set to forest green, verdana, and gave specific white space */
 }
 
 img {
-	border-color: forestgreen;
+	border-color: lightblue;
 	border-style: solid;
-	margin: 10px;
+	margin: -10px;
+	margin-right: 10px;
+	padding: 0px;
+	allign: center;
+	/* Gave all images a light blue solid border, and white space via padding and margin */
+}
+link {
+	color: darkred;
+	font-family: verdana;
 	padding: 10px;
+	padding-left: 10px;
+	margin: 20px;
+}
+button {
+	background-color: forestgreen;
+	color: whitesmoke;
+	padding: 10px;
+	margin: 20px;
+	font-family: verdana;
 }
 
 
